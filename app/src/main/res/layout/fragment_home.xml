@@ -30,7 +30,7 @@
           android:id="@id/notice_text"
           android:layout_gravity="center_horizontal"
           android:gravity="center"
-          android:text="@string/notice"
+          android:text="@string/notices"
           android:textSize="20sp"
 
           android:textColor="@color/black">

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HPTU 2.0</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="results">Results</string>
+    <string name="computer_science_engineering">COMPUTER SCIENCE ENGINEERING</string>
+    <string name="notice">NOTICE</string>
+    <string name="electrical_engineering">ELECTRICAL ENGINEERING</string>
+    <string name="civil_engineering">CIVIL ENGINEERING</string>
+    <string name="mechanical_engineering">MECHANICAL ENGINEERING</string>
+    <string name="notices">Notices</string>
+</resources>

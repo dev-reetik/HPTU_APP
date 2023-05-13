@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:nestedScrollingEnabled="true"
+    android:contentDescription="@string/appbar_scrolling_view_behavior"
+    >
+<RelativeLayout
+    android:id="@+id/home_frag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.home.HomeFragment">
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/news"
+       android:layout_width="314dp"
+       android:layout_height="218dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerInParent="true"
+       app:cardCornerRadius="20dp"
+       android:background="@drawable/cards_style"
+       android:elevation="10dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@id/notice_text"
+          android:layout_gravity="center_horizontal"
+          android:gravity="center"
+          android:text="@string/notice"
+          android:textSize="20sp"
+
+          android:textColor="@color/black">
+
+      </TextView>
+
+
+
+   </androidx.cardview.widget.CardView>
+
+
+
+
+   <!-- Rectangle 1 -->
+   <androidx.cardview.widget.CardView
+       android:id="@+id/rectangle_1"
+       android:layout_width="314dp"
+       android:layout_height="62dp"
+       android:layout_below="@id/news"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="283dp"
+       android:layout_centerInParent="true"
+       app:cardCornerRadius="20dp"
+       android:background="@drawable/cards_style"
+       android:elevation="10dp"
+       android:clickable="true"
+       android:focusable="true">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="@string/computer_science_engineering"
+          android:textSize="15sp"
+          android:textColor="@color/black"
+          />
+
+   </androidx.cardview.widget.CardView>
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/rectangle_2"
+       android:layout_width="314dp"
+       android:layout_height="62dp"
+       android:layout_below="@id/rectangle_1"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="362dp"
+       android:layout_centerInParent="true"
+       app:cardCornerRadius="20dp"
+       android:background="@drawable/cards_style"
+       android:elevation="10dp"
+       android:clickable="true"
+       android:focusable="true">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="@string/civil_engineering"
+          android:textSize="15sp"
+          android:textColor="@color/black"
+          />
+
+
+   </androidx.cardview.widget.CardView>
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/rectangle_3"
+       android:layout_width="314dp"
+       android:layout_height="62dp"
+       android:layout_below="@id/rectangle_1"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="441dp"
+       android:layout_centerInParent="true"
+       app:cardCornerRadius="20dp"
+       android:background="@drawable/cards_style"
+       android:elevation="10dp"
+       android:clickable="true"
+       android:focusable="true"
+      >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="@string/electrical_engineering"
+          android:textSize="15sp"
+          android:textColor="@color/black"
+          />
+
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/rectangle_4"
+       android:layout_width="314dp"
+       android:layout_height="62dp"
+       android:layout_below="@id/rectangle_1"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="520dp"
+       android:layout_centerInParent="true"
+       app:cardCornerRadius="20dp"
+       android:background="@drawable/cards_style"
+       android:elevation="10dp"
+       android:clickable="true"
+       android:focusable="true"
+       android:layout_marginBottom="15dp"
+       >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="@string/mechanical_engineering"
+          android:textSize="15sp"
+          android:textColor="@color/black"
+          />
+
+   </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
+
+
+</ScrollView>

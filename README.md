@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Himachal Pradesh Technical University </title>
+   
   </head>
   <body>
     <h1>HPTU APP</h1>
